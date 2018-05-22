@@ -1,6 +1,9 @@
 import pygame
 import sys
-work_space = '/Users/siyuzhu/PycharmProjects/REINFORCE_flappy_bird/'
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+work_space =BASE_DIR+"/"
+
 def load():
     # path of player with different states
     PLAYER_PATH = (
