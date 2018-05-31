@@ -2,12 +2,15 @@ import numpy as np
 import sys
 import random
 import pygame
+import flappy_bird_utils
 import pygame.surfarray as surfarray
 from pygame.locals import *
 from itertools import cycle
+import pygame
+import sys
 import os
-work_space = os.path.dirname(os.getcwd())
-# work_space = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+work_space = os.getcwd()
+print (work_space)
 def load():
     # path of player with different states
     PLAYER_PATH = (
@@ -81,6 +84,7 @@ def getHitmask(image):
         for y in range(image.get_height()):
             mask[x].append(bool(image.get_at((x,y))[3]))
     return mask
+
 
 
 os.environ["SDL_VIDEODRIVER"] = "dummy"
