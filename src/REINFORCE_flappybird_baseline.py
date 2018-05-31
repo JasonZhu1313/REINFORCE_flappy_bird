@@ -9,7 +9,7 @@ from skimage.viewer import ImageViewer
 
 import sys
 import os
-work_space = os.path.dirname(os.path.dirname(os.path.abs(__file__)))
+work_space = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(work_space+"/game/")
 import wrapped_flappy_bird as game
 import random
