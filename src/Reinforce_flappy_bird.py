@@ -150,7 +150,7 @@ def cal_reward(rollouts, gamma, discounted=False):
             r_reward.append(running_reward)
         rollout.r_rewards = np.squeeze(np.array(np.vstack(r_reward[::-1])))
 
-
+# calculate the advantage = reward - expected reward at this time step
 def cal_advantage(rollouts):
     max_steps = max(rollout.rewards.shape[0] for rollout in rollouts)
     for rollout in rollouts:
@@ -169,10 +169,6 @@ def play_game(agent, render=False):
     actions = np.array([])
     # used to save the rewards
     rewards = np.array([])
-
-
-
-
     # get the first state by doing nothing and preprocess the image to 80x80x4
     do_nothing = np.zeros(ACTION_SIZE)
     do_nothing[0] = 1

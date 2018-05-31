@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py" line="269" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py" line="265" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06120782-1689-47ef-ab32-94ea28b9032a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/REINFORCE_flappybird_baseline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Reinforce_flappy_bird_baseline.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/wrapped_flappy_bird.py" afterPath="$PROJECT_DIR$/game/wrapped_flappy_bird.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/REINFORCE_flappy_bird.ipynb" afterPath="$PROJECT_DIR$/src/REINFORCE_flappy_bird.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Reinforce_flappy_bird.py" afterPath="$PROJECT_DIR$/src/Reinforce_flappy_bird.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Reinforce_flappy_bird.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reinforce_flappy_bird.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-746">
-              <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
+            <state relative-caret-position="5712">
+              <caret line="251" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -33,42 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shape_base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/numpy/core/shape_base.py">
+      <file leaf-file-name="Reinforce_flappy_bird_baseline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird_baseline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4194">
-              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/client/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10242">
-              <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tensorflow_backend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45720">
-              <caret line="2556" column="38" lean-forward="false" selection-start-line="2556" selection-start-column="38" selection-end-line="2556" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29304">
-              <caret line="1647" column="27" lean-forward="false" selection-start-line="1647" selection-start-column="27" selection-end-line="1647" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,31 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nn_impl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_impl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15948">
-              <caret line="906" column="8" lean-forward="false" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wrapped_flappy_bird.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -114,12 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interfaces.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/legacy/interfaces.py">
+      <file leaf-file-name="REINFORCE_flappybird_baseline.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/REINFORCE_flappybird_baseline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1476">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="3912">
+              <caret line="351" column="38" lean-forward="false" selection-start-line="351" selection-start-column="38" selection-end-line="351" selection-end-column="38" />
+              <folding>
+                <element signature="e#22#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +94,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>predict</find>
+      <find>reward</find>
       <find>print</find>
+      <find>history</find>
+      <find>advantage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +110,9 @@
         <option value="$PROJECT_DIR$/src/visualization.py" />
         <option value="$PROJECT_DIR$/src/REINFORCE_flappy_bird.ipynb" />
         <option value="$PROJECT_DIR$/src/Reinforce_flappy_bird.py" />
+        <option value="$PROJECT_DIR$/src/Reinforce_flappy_bird_baseline.py" />
+        <option value="$PROJECT_DIR$/game/wrapped_flappy_bird.py" />
+        <option value="$PROJECT_DIR$/src/REINFORCE_flappybird_baseline.py" />
       </list>
     </option>
   </component>
@@ -159,10 +123,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="1436" />
-    <option name="height" value="877" />
+    <option name="x" value="1921" />
+    <option name="y" value="31" />
+    <option name="width" value="1112" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -207,6 +171,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -290,13 +255,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <frame x="1921" y="31" width="1112" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22144847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04766187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5027855" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30807453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -311,6 +275,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -327,26 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4230">
-          <caret line="235" column="28" lean-forward="false" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/visualization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -371,14 +316,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15318">
-          <caret line="871" column="20" lean-forward="false" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py" />
     <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3258">
@@ -413,14 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15318">
-          <caret line="871" column="20" lean-forward="false" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py" />
     <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2790">
@@ -455,14 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15318">
-          <caret line="871" column="20" lean-forward="false" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py" />
     <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3042">
@@ -480,14 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15318">
-          <caret line="871" column="20" lean-forward="false" selection-start-line="871" selection-start-column="20" selection-end-line="871" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py" />
     <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
@@ -566,13 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/2007620882/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1352" column="8" lean-forward="false" selection-start-line="1352" selection-start-column="8" selection-end-line="1352" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/2007620882/_io.py" />
     <entry file="file://$PROJECT_DIR$/resource/process_record.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8780">
@@ -594,14 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/skimage/transform/_warps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/skimage/transform/_warps.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -616,37 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="4996" column="0" lean-forward="false" selection-start-line="4996" selection-start-column="0" selection-end-line="4996" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5544">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28872">
-          <caret line="1613" column="0" lean-forward="false" selection-start-line="1613" selection-start-column="0" selection-end-line="1613" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/numpy/lib/function_base.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/codecs.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/random.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/engine/training.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4086">
@@ -654,45 +531,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/gen_nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="2418" column="55" lean-forward="true" selection-start-line="2418" selection-start-column="55" selection-end-line="2418" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15948">
-          <caret line="906" column="8" lean-forward="false" selection-start-line="906" selection-start-column="8" selection-end-line="906" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45720">
-          <caret line="2556" column="38" lean-forward="false" selection-start-line="2556" selection-start-column="38" selection-end-line="2556" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29304">
-          <caret line="1647" column="27" lean-forward="false" selection-start-line="1647" selection-start-column="27" selection-end-line="1647" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/gen_nn_ops.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_impl.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/models.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/ops/nn_ops.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/legacy/interfaces.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/numpy/core/shape_base.py" />
+    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/client/session.py" />
     <entry file="file://$PROJECT_DIR$/src/REINFORCE_flappy_bird.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -700,46 +546,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/keras/legacy/interfaces.py">
+    <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="5712">
+          <caret line="251" column="0" lean-forward="false" selection-start-line="242" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/numpy/core/shape_base.py">
+    <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4194">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/wrapped_flappy_bird.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Public/codelibrary/anaconda2/envs/DRLAs1/lib/python3.5/site-packages/tensorflow/python/client/session.py">
+    <entry file="file://$PROJECT_DIR$/src/REINFORCE_flappybird_baseline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10242">
-          <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reinforce_flappy_bird.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="221" column="12" lean-forward="true" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
+        <state relative-caret-position="3912">
+          <caret line="351" column="38" lean-forward="false" selection-start-line="351" selection-start-column="38" selection-end-line="351" selection-end-column="38" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#22#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

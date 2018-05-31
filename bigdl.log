@@ -1,0 +1,628 @@
+2018-05-22 09:26:48 INFO  ServerConnector:306 - Stopped ServerConnector@4aa67dd9{HTTP/1.1}{0.0.0.0:4040}
+2018-05-22 09:26:48 INFO  ServerConnector:306 - Stopped ServerConnector@4aa67dd9{HTTP/1.1}{0.0.0.0:4040}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6271d643{/stages/stage/kill,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6271d643{/stages/stage/kill,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@36cdd257{/api,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@36cdd257{/api,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@2011bd74{/,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@2011bd74{/,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@44723fa5{/static,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@44723fa5{/static,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@3a7dc2b7{/executors/threadDump/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@3a7dc2b7{/executors/threadDump/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@27463190{/executors/threadDump,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@27463190{/executors/threadDump,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@86d9d52{/executors/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@86d9d52{/executors/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@7af3bd6{/executors,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@7af3bd6{/executors,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6c2e211e{/environment/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6c2e211e{/environment/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@73cb89f6{/environment,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@73cb89f6{/environment,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6913b9a{/storage/rdd/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6913b9a{/storage/rdd/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@50077db0{/storage/rdd,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@50077db0{/storage/rdd,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5e58245d{/storage/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5e58245d{/storage/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@658205a3{/storage,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@658205a3{/storage,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@7b25bca6{/stages/pool/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@7b25bca6{/stages/pool/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@4f082b25{/stages/pool,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@4f082b25{/stages/pool,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@3501cc12{/stages/stage/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@3501cc12{/stages/stage/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@29c6ffee{/stages/stage,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@29c6ffee{/stages/stage,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@166afe5{/stages/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@166afe5{/stages/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@47a7aa95{/stages,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@47a7aa95{/stages,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@d723539{/jobs/job/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@d723539{/jobs/job/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@750ba07f{/jobs/job,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@750ba07f{/jobs/job,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5953ea9e{/jobs/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5953ea9e{/jobs/json,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@76d78913{/jobs,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@76d78913{/jobs,null,UNAVAILABLE}
+2018-05-22 09:26:48 INFO  SparkUI:54 - Stopped Spark web UI at http://172.168.0.26:4040
+2018-05-22 09:26:48 INFO  SparkUI:54 - Stopped Spark web UI at http://172.168.0.26:4040
+2018-05-22 09:26:48 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-05-22 09:26:48 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-05-22 09:26:48 INFO  MemoryStore:54 - MemoryStore cleared
+2018-05-22 09:26:48 INFO  MemoryStore:54 - MemoryStore cleared
+2018-05-22 09:26:48 INFO  BlockManager:54 - BlockManager stopped
+2018-05-22 09:26:48 INFO  BlockManager:54 - BlockManager stopped
+2018-05-22 09:26:48 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-05-22 09:26:48 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-05-22 09:26:48 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-05-22 09:26:48 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-7819c973-c54a-4a90-9821-1c620955ad91/pyspark-780330fe-75b8-44d6-9040-6fa6319122d8
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-7819c973-c54a-4a90-9821-1c620955ad91/pyspark-780330fe-75b8-44d6-9040-6fa6319122d8
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-7819c973-c54a-4a90-9821-1c620955ad91
+2018-05-22 09:26:48 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-7819c973-c54a-4a90-9821-1c620955ad91
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 13.6 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 13.6 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:53 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:54 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:54 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:55 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:55 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_16 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_16 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_16_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_16_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_16_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_16_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_17 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_17 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_17_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  MemoryStore:54 - Block broadcast_17_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_17_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:56 INFO  BlockManagerInfo:54 - Added broadcast_17_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_18 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_18 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_18_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_18_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_18_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_18_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_19 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_19 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_19_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_19_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_19_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_19_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_20 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_20 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_20_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:57 INFO  MemoryStore:54 - Block broadcast_20_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_20_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:57 INFO  BlockManagerInfo:54 - Added broadcast_20_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_21 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_21 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_21_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_21_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_21_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_21_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_22 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_22 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_22_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_22_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_22_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_22_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_23 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_23 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_23_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:58 INFO  MemoryStore:54 - Block broadcast_23_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_23_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:58 INFO  BlockManagerInfo:54 - Added broadcast_23_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_24 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_24 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_24_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_24_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_24_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_25 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_25 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_25_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_25_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_25_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_25_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_26 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_26 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_26_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_26_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_26_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_26_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_27 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_27 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_27_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_27_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_27_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_27_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_28 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_28 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_28_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_28_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_28_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_28_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_29 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_29 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_29_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_29_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_29_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_29_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_0_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_0_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_10_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_10_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_11_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_11_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_12_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_12_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_13_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_13_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_14_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_14_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_15_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_15_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_16_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_16_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_17_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_17_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_21_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_21_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_22_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_22_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_23_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Removed broadcast_23_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_30 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_30 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_30_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_30_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_30_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_30_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_31 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_31 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_31_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_31_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_31_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_31_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_32 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_32 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_32_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  MemoryStore:54 - Block broadcast_32_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_32_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:33:59 INFO  BlockManagerInfo:54 - Added broadcast_32_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_33 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_33 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_33_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_33_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_33_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_33_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_34 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_34 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_34_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_34_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_34_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_34_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_35 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_35 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_35_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_35_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_35_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_35_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_36 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_36 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_36_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_36_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_36_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_36_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_37 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_37 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_37_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_37_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_37_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_37_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_38 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_38 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_38_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  MemoryStore:54 - Block broadcast_38_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_38_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:00 INFO  BlockManagerInfo:54 - Added broadcast_38_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_39 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_39 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_39_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_39_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_39_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_39_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_40 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_40 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_40_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_40_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_40_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_40_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_41 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_41 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_41_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_41_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_41_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_41_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_42 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_42 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_42_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_42_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_42_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_42_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_43 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_43 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_43_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_43_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_43_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_43_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_44 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_44 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_44_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  MemoryStore:54 - Block broadcast_44_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_44_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:01 INFO  BlockManagerInfo:54 - Added broadcast_44_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_45 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_45 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_45_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_45_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_45_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_45_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_46 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_46 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_46_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_46_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_46_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_46_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_47 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_47 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_47_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_47_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_47_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_47_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_48 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_48 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_48_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_48_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_48_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_48_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_49 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_49 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_49_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_49_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_49_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_49_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_50 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_50 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_50_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_50_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_50_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_50_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_30_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_30_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_31_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_31_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_32_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_32_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_33_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_33_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_34_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_34_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_35_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_35_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_36_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_36_piece0 on 172.168.0.26:45977 in memory (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_37_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_37_piece0 on 172.168.0.26:45977 in memory (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_38_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Removed broadcast_38_piece0 on 172.168.0.26:45977 in memory (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_51 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_51 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_51_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_51_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_51_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_51_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_52 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_52 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_52_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_52_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_52_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_52_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_53 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_53 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_53_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  MemoryStore:54 - Block broadcast_53_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_53_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:02 INFO  BlockManagerInfo:54 - Added broadcast_53_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_54 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_54 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_54_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_54_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_54_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_54_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_55 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_55 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_55_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_55_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_55_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_55_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_56 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_56 stored as values in memory (estimated size 200.0 B, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_56_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_56_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_56_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_56_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_57 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_57 stored as values in memory (estimated size 13.2 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_57_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_57_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_57_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_57_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_58 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_58 stored as values in memory (estimated size 2.1 MB, free 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_58_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_58_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_58_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_58_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_59 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_59 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_59_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:03 INFO  MemoryStore:54 - Block broadcast_59_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_59_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:03 INFO  BlockManagerInfo:54 - Added broadcast_59_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_60 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_60 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_60_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_60_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_60_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_60_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_61 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_61 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_61_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_61_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_61_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_61_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_62 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_62 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_62_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_62_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_62_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_62_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_63 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_63 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_63_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_63_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_63_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_63_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_64 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_64 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_64_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_64_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_64_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_64_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_65 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_65 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_65_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  MemoryStore:54 - Block broadcast_65_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_65_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:04 INFO  BlockManagerInfo:54 - Added broadcast_65_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_66 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_66 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_66_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_66_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_66_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_66_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_67 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_67 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_67_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_67_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_67_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_67_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_68 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_68 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_68_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_68_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_68_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_68_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_69 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_69 stored as values in memory (estimated size 13.2 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_69_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_69_piece0 stored as bytes in memory (estimated size 5.7 KB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_69_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_69_piece0 in memory on 172.168.0.26:45977 (size: 5.7 KB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_70 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_70 stored as values in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_70_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_70_piece0 stored as bytes in memory (estimated size 2.1 MB, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_70_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_70_piece0 in memory on 172.168.0.26:45977 (size: 2.1 MB, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_71 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_71 stored as values in memory (estimated size 200.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_71_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  MemoryStore:54 - Block broadcast_71_piece0 stored as bytes in memory (estimated size 716.0 B, free 10.4 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_71_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:05 INFO  BlockManagerInfo:54 - Added broadcast_71_piece0 in memory on 172.168.0.26:45977 (size: 716.0 B, free: 10.5 GB)
+2018-05-22 09:34:24 INFO  ServerConnector:306 - Stopped ServerConnector@1309186{HTTP/1.1}{0.0.0.0:4040}
+2018-05-22 09:34:24 INFO  ServerConnector:306 - Stopped ServerConnector@1309186{HTTP/1.1}{0.0.0.0:4040}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@2adce860{/stages/stage/kill,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@2adce860{/stages/stage/kill,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@540babb2{/api,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@540babb2{/api,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@19368094{/,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@19368094{/,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@342b6e15{/static,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@342b6e15{/static,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@1d6c78b3{/executors/threadDump/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@1d6c78b3{/executors/threadDump/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@59b29858{/executors/threadDump,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@59b29858{/executors/threadDump,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@1cf638dc{/executors/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@1cf638dc{/executors/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6b5fb70{/executors,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6b5fb70{/executors,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5c13013c{/environment/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5c13013c{/environment/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6294f2a8{/environment,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6294f2a8{/environment,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6a0e0af0{/storage/rdd/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6a0e0af0{/storage/rdd/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6ed69543{/storage/rdd,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6ed69543{/storage/rdd,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@74895610{/storage/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@74895610{/storage/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@60ad17fe{/storage,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@60ad17fe{/storage,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6f6d7627{/stages/pool/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@6f6d7627{/stages/pool/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@483c8da{/stages/pool,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@483c8da{/stages/pool,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@72dcdd96{/stages/stage/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@72dcdd96{/stages/stage/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@33979b17{/stages/stage,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@33979b17{/stages/stage,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@37db9bc6{/stages/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@37db9bc6{/stages/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@32788a35{/stages,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@32788a35{/stages,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@199b0239{/jobs/job/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@199b0239{/jobs/job/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5f3b6e64{/jobs/job,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@5f3b6e64{/jobs/job,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@536ac99d{/jobs/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@536ac99d{/jobs/json,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@125723fc{/jobs,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  ContextHandler:865 - Stopped o.s.j.s.ServletContextHandler@125723fc{/jobs,null,UNAVAILABLE}
+2018-05-22 09:34:24 INFO  SparkUI:54 - Stopped Spark web UI at http://172.168.0.26:4040
+2018-05-22 09:34:24 INFO  SparkUI:54 - Stopped Spark web UI at http://172.168.0.26:4040
+2018-05-22 09:34:24 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-05-22 09:34:24 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-05-22 09:34:24 INFO  MemoryStore:54 - MemoryStore cleared
+2018-05-22 09:34:24 INFO  MemoryStore:54 - MemoryStore cleared
+2018-05-22 09:34:24 INFO  BlockManager:54 - BlockManager stopped
+2018-05-22 09:34:24 INFO  BlockManager:54 - BlockManager stopped
+2018-05-22 09:34:24 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-05-22 09:34:24 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-05-22 09:34:24 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-05-22 09:34:24 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6fa66811-8c9d-41ef-80ef-511e29dd822e
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6fa66811-8c9d-41ef-80ef-511e29dd822e
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6fa66811-8c9d-41ef-80ef-511e29dd822e/pyspark-c28747db-cf95-48ff-b11e-95feb692bd57
+2018-05-22 09:34:24 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-6fa66811-8c9d-41ef-80ef-511e29dd822e/pyspark-c28747db-cf95-48ff-b11e-95feb692bd57
