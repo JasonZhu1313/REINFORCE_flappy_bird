@@ -1,30 +1,37 @@
+
 from __future__ import print_function
-import os, sys
 
-import matplotlib.pyplot as plt
-
-import numpy as np
-from collections import deque
-import random
-import os, sys
 import argparse
 import skimage as skimage
 from skimage import transform, color, exposure
 from skimage.transform import rotate
 from skimage.viewer import ImageViewer
 
-PRO_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(PRO_PATH + "/game/")
-sys.path.append(PRO_PATH)
-import wrapped_flappy_bird as game
+import sys
+import os
+#work_space = os.path.dirname(os.getcwd())
 
-from keras import backend as K
-from keras.models import Sequential
-from keras.layers.core import Dense, Dropout, Activation, Flatten
-from keras.layers.convolutional import Convolution2D, MaxPooling2D
-from keras.optimizers import SGD, Adam
+work_space = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(work_space+"/game/")
+import wrapped_flappy_bird as game
+import random
+import numpy as np
+from collections import deque
+import json
+import os
+
+from bigdl.optim.optimizer import *
+from bigdl.nn.criterion import *
+from zoo.pipeline.api.keras.models import Sequential
+from zoo.pipeline.api.keras.layers import Dense, Dropout, Activation,Flatten,Convolution2D
 import tensorflow as tf
 
+def to_RDD(X, y):
+    return sc.parallelize(X).zip(sc.parallelize(y)).map(
+            lambda x: Sample.from_ndarray(x[0],x[1]))
+
+def normalize(advantages, smallEps=1e-8):
+    return (advantages - advantages.mean())/(advantages.std() + smallEps)
 
 ACTION_PER_FRAME = 1
 IMAGE_ROWS, IMAGE_COLS = 80, 80
@@ -34,8 +41,10 @@ LEARNING_RATE = 1e-4
 INITIAL_EPSILON = 0.1
 FINAL_EPSILON = 0.0001
 EXPLORE = 3000000
-BATCH_SIZE = 10 # every how many eposides do a parameter update
+BATCH_SIZE = 2 # every how many eposides do a parameter update
 GAMMA = 0.99
+r_reward_moving_average = 0
+average_step_record = list()
 
 # the abstraction of birdagent
 class BirdAgent:
@@ -62,7 +71,6 @@ class BirdAgent:
         model.add(Dense(2))
         # get the 1 * 2 output represent each action's probability
         model.add(Activation('softmax'))
-
         return model
 
     # sample the action from the predict of the model
@@ -83,12 +91,32 @@ class BirdAgent:
             return action,action,explore
 
         else:
-            out = self.model.predict(state)
-            if self.action_sampler(out=out) == 0:
+            if isinstance(state, np.ndarray):
+                features = to_sample_rdd(state, np.zeros([state.shape[0]]))
+            out = self.model.predict(features)
+            #print("out type",out)
+            out = out.collect()
+            
+            if self.action_sampler(np.squeeze(out)) == 0:
                 action[0] = 1
             else:
                 action[1] = 1
             return np.squeeze(out),action,explore
+
+
+def to_sample_rdd(x, y, numSlices=None):
+    """
+    Conver x and y into RDD[Sample]
+    :param x: ndarray and the first dimension should be batch
+    :param y: ndarray and the first dimension should be batch
+    :param numSlices:
+    :return:
+    """
+    sc = get_spark_context()
+    from bigdl.util.common import Sample
+    x_rdd = sc.parallelize(x, numSlices)
+    y_rdd = sc.parallelize(y, numSlices)
+    return x_rdd.zip(y_rdd).map(lambda item: Sample.from_ndarray(item[0], item[1]))
 
 
 # the abstraction of rollouts
@@ -111,9 +139,11 @@ class RollOuts():
     def prepare_target(self):
         result = []
         for action, adv in list(zip(self.actions, self.advs)):
-            print('action and advantages : ',action, adv)
-            result.append([action, adv])
+            adv = adv * action
+            result.append(adv)
         return np.array(result)
+
+
 
 
 # the abstraction of experience memory
@@ -134,6 +164,7 @@ class ExperienceStroe:
         self.rollouts = []
 
 
+
 def stats_summary(rollouts, records, verbose=True):
     rollout_rewards = np.array([rollout.total_rewards for rollout in rollouts])
     print("reward mean %s" % (rollout_rewards.mean()))
@@ -142,21 +173,24 @@ def stats_summary(rollouts, records, verbose=True):
     records.append([rollout_rewards.mean(), rollout_rewards.std()])
 
 
-# calculate running reward
-def cal_reward(rollouts, gamma, discounted=False):
+
+
+def cal_advantage_moving_average(rollouts):
+    r_reward_moving_average = 0
     for rollout in rollouts:
-        rewards = rollout.rewards
-        r_reward = []
-        running_reward = 0
-        for reward in rewards[::-1]:
-            # discounted reward
-            reward = (-1) * reward
-            if discounted == True:
-                running_reward = gamma * running_reward + reward
-            else:
-                running_reward = running_reward + reward
-            r_reward.append(running_reward)
-        rollout.r_rewards = np.squeeze(np.array(np.vstack(r_reward[::-1])))
+        advs = np.zeros([rollout.rewards.shape[0]])
+        i = 0
+        for r_reward in rollout.r_rewards:
+            # calculate moving average
+            r_reward_moving_average = (1-0.9) * r_reward_moving_average + 0.1 * r_reward
+            # correct the bias
+            advs[i] = r_reward - r_reward_moving_average
+            i += 1
+            rollout.advs = normalize(advs)       
+
+
+
+
 
 
 # calculate the advantage = reward - expected reward at this time step
@@ -171,23 +205,21 @@ def cal_advantage(rollouts):
         rollout.r_rewards = rollout.r_rewards[:len(rollout.rewards)]
 
 
+
+
 def play_game(agent, render=False):
     # 1. initialize
     # open up a game state to communicate with emulator
     game_state = game.GameState()
     # used to save the actions, should be a 1*2 nparray and sum(action) should be 1
-    actions = np.array([])
+    actions = np.zeros([1,2])
     # used to save the rewards
     rewards = np.array([])
     # get the first state by doing nothing and preprocess the image to 80x80x4
-    # In Keras, need to reshape 1 * 80 * 80 * 4
-    state = state.reshape(1, state.shape[0], state.shape[1], state.shape[2])  # 1*80*80*4
-    # the observations will be batch_size * 80 * 80 * 4
-    observations = np.zeros([1, state.shape[1], state.shape[2], state.shape[3]])
+  
     gradients = np.zeros([1, 2])
     # should be (1*2) nparray and each col represent the probability to chose that action
     logprobs = np.array([1, 2])
-
 
     do_nothing = np.zeros(ACTION_SIZE)
     do_nothing[0] = 1
@@ -204,23 +236,26 @@ def play_game(agent, render=False):
     # 80 * 80 * 4
     state = np.stack((x_t, x_t, x_t, x_t), axis=2)
     print (state.shape)
-
-
+    # In Keras, need to reshape 1 * 80 * 80 * 4
+    state = state.reshape(1, state.shape[0], state.shape[1], state.shape[2])  # 1*80*80*4
+    # the observations will be batch_size * 80 * 80 * 4
+    observations = np.zeros([1, state.shape[1], state.shape[2], state.shape[3]])
     for step in range(1, 500):
         # next state's shape, should be (1*80*80*4)
-        print('observations size : ', observations.shape)
-        print('state size ', state.shape)
+        
         # get the state list
         observations = np.vstack((observations, state))
         # predict the action
 
         logprob,action,explore = agent.act(state)
-
-        actions = np.append(actions, action)
+        
+        
+        actions = np.vstack((actions, action))
         logprobs = np.vstack((logprobs ,logprob))
         gradients = np.vstack((gradients , action.astype('float32') - logprob))
         # use the predicted action to determine the next state
         x_t1_colored, reward, terminal = game_state.frame_step(action)
+        # print ('reward ',reward)
         # rgb to gray and rescale
         x_t1 = skimage.color.rgb2gray(x_t1_colored)
         x_t1 = skimage.transform.resize(x_t1, (80, 80))
@@ -240,10 +275,12 @@ def play_game(agent, render=False):
         # print('terminal : ',terminal)
         if terminal or step == 498:
             break
-    return observations[1:], actions, rewards , logprobs[1:], gradients[1:], step
+    return observations[1:], actions[1:], rewards , logprobs[1:], gradients[1:], step
 
 
-def play_n_games(agent, history, n=10, verbose=True):
+
+
+def play_n_games(agent, history, n=4, verbose=True):
     start_eps = history.num_experiences()
     total_step = 0
     for i in range(n):
@@ -252,5 +289,95 @@ def play_n_games(agent, history, n=10, verbose=True):
         total_step += step
     end_eps = history.num_experiences()
     return start_eps, end_eps, total_step
+
+
+
+
+
+
+
+def learn(agent, rollouts):
+    cal_reward(rollouts, agent.gamma)
+    cal_advantage_moving_average(rollouts)
+    #cal_advantage(rollouts)
+    X_batch = np.zeros([1, 80, 80, 4])
+    Y_batch = np.array([0,0])
+    for rollout in rollouts:
+        X_batch = np.vstack((X_batch, rollout.next_states))
+        # Y_batch: the label of the training should be [[action,adv]]
+        Y_batch = np.vstack((Y_batch, rollout.prepare_target()))
+    X_batch = X_batch[1:]
+    Y_batch = Y_batch[1:]
+    Y_batch[:,1] = normalize(Y_batch[:,1])
+
+    # Y_batch[:, 1] = normalize(y_batch[:, 1])
+    # prepare to train the model
+    print('X_batch size : ',X_batch.shape)
+    print('Y_batch size : ',Y_batch.shape)
+    rdd_sample = to_RDD(X_batch, Y_batch)
+    batch_size = X_batch.shape[0] - X_batch.shape[0]%8
+    print ("using batch_size = ",batch_size)
+    
+    optimizer = Optimizer(model=agent.model,
+                                  training_rdd=rdd_sample,
+                                  criterion=PGCriterion(),
+                                  optim_method= RMSprop(learningrate=0.005),
+                                  end_trigger=MaxIteration(1),
+                                  batch_size=batch_size)
+    #else:
+        #optimizer.set_traindata(training_rdd=rdd_sample, batch_size=batch_size)
+        #optimizer.set_criterion(RFPGCriterion())
+    agent.model = optimizer.optimize()
+    return agent.model
+
+
+
+
+import timeit
+state_size = (1, 80, 80, 4)
+action_size = ACTION_SIZE
+agent = BirdAgent(state_size, action_size)
+history = ExperienceStroe()
+record = []
+exe_times = []
+history.reset()
+train_start = 0
+played_steps = 0
+start_of_play = timeit.default_timer()
+t=0
+while(True):
+    t+=1
+    # history is a list of rollouts
+    start_eps, end_eps, steps = play_n_games(agent, history, n=BATCH_SIZE)
+    played_steps += steps
+    train_end = end_eps
+    end_of_play = timeit.default_timer()
+    print
+    "*************************"
+    rollouts = history.get_range(start_eps, end_eps)
+    stats_summary(rollouts, record)
+    if (played_steps > BATCH_SIZE * 34):
+        print("used in training: ", start_eps, "-", end_eps)
+        print("num of total steps in training ", played_steps)
+        start_of_train = timeit.default_timer()
+        rollouts = history.get_range(train_start, train_end)
+        print("training begin")
+        model = learn(agent, rollouts)
+	if (t%1 == 0):
+	    model.saveModel("/model/model"+str(t)+".bigdl","/model/mode"+str(t)+"l.bin",True)
+
+        end_of_train = timeit.default_timer()
+        exe_time_game_play = end_of_play - start_of_play
+        train_time_game_paly = end_of_train - start_of_train
+        exe_times.append([exe_time_game_play, train_time_game_paly])
+        train_start = end_eps
+        train_end = end_eps
+        played_steps = 0
+        start_of_play = timeiti.default_timer()
+        
+
+
+
+
 
 
